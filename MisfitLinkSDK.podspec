@@ -7,34 +7,30 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "MisfitLinkSDK"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MisfitLinkSDK."
+s.name             = "MisfitLinkSDK"
+s.version          = "0.1.0"
+s.summary          = "Gain access to button events from the Misfit Flash"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.description      = <<-DESC
+The Misfit Link SDK gives your application access to the button command feature of the Misfit Flash, allowing users to control your application from the wrist.
+DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MisfitLinkSDK"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Phill Pasqual" => "phill@misfit.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MisfitLinkSDK.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = "https://github.com/Misfit-Developers/LinkSDK.git"
+# s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+s.license          = 'MIT'
+s.author           = { "Phill Pasqual" => "phill@misfit.com" }
+s.source           = { :git => "https://github.com/Misfit-Developers/LinkSDK.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+s.platform     = :ios, '7.0'
+s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'MisfitLinkSDK' => ['Pod/Assets/*.png']
-  }
+s.preserve_paths = "Pod/MisfitLinkSDK.framework"
+s.vendored_frameworks = "Pod/MisfitLinkSDK.framework"
+s.public_header_files = "Pod/MisfitLinkSDK.framework/Versions/A/Headers/*.h"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -7,40 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FF5B9F2C2D66DAA9887E3E8 /* Pods_MisfitLinkSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5D84C505772E0E81DD0ACE /* Pods_MisfitLinkSDK_Example.framework */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* MFLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MFLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MFLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		80FA29CD33ABA130CA4DECD5 /* Pods_MisfitLinkSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B193E93981A646B63F4E820 /* Pods_MisfitLinkSDK_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		662BFD4A5E811E155F37ED24 /* Pods_MisfitLinkSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5D84C505772E0E81DD0ACE /* Pods_MisfitLinkSDK_Example.framework */; };
+		DF08869E1C29451D00EAFAD8 /* MisfitLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0886971C2903D900EAFAD8 /* MisfitLinkSDK.framework */; };
+		DF76CF601C21625E001F173E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76CF541C21625E001F173E /* AppDelegate.m */; };
+		DF76CF611C21625E001F173E /* GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76CF561C21625E001F173E /* GradientBackground.m */; };
+		DF76CF621C21625E001F173E /* helpicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF76CF571C21625E001F173E /* helpicon.png */; };
+		DF76CF631C21625E001F173E /* LapTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76CF591C21625E001F173E /* LapTimer.m */; };
+		DF76CF641C21625F001F173E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF76CF5A1C21625E001F173E /* LaunchScreen.storyboard */; };
+		DF76CF651C21625F001F173E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76CF5C1C21625E001F173E /* MainViewController.m */; };
+		DF76CF661C21625F001F173E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76CF5E1C21625E001F173E /* SettingsViewController.m */; };
+		DF76CF671C21625F001F173E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF76CF5F1C21625E001F173E /* Main.storyboard */; };
+		DF76CF691C21640B001F173E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76CF681C21640B001F173E /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = MisfitLinkSDK;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3F5D84C505772E0E81DD0ACE /* Pods_MisfitLinkSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisfitLinkSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B193E93981A646B63F4E820 /* Pods_MisfitLinkSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisfitLinkSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B55654BBAF8F26EDD442912 /* Pods-MisfitLinkSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisfitLinkSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MisfitLinkSDK_Example/Pods-MisfitLinkSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C4A899BEFA183A10699AA89 /* Pods-MisfitLinkSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisfitLinkSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MisfitLinkSDK_Example/Pods-MisfitLinkSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* MisfitLinkSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MisfitLinkSDK.app; path = MisfitLinkSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* MisfitLinkSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisfitLinkSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -48,12 +36,7 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* MisfitLinkSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MisfitLinkSDK-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* MFLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFLAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* MFLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MFLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MFLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = MisfitLinkSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -61,10 +44,24 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C52CB9101BE560FB6C74C71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		860C9F48560FE20114E07106 /* MisfitLinkSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MisfitLinkSDK.podspec; path = ../MisfitLinkSDK.podspec; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8F9EFBFB9CFB1446023310EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BBA8B76985E57B2AB5889619 /* Pods-MisfitLinkSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisfitLinkSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MisfitLinkSDK_Tests/Pods-MisfitLinkSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFDB8B5479B44C1003D391D9 /* Pods-MisfitLinkSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisfitLinkSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MisfitLinkSDK_Tests/Pods-MisfitLinkSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0886971C2903D900EAFAD8 /* MisfitLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MisfitLinkSDK.framework; path = ../Pod/MisfitLinkSDK.framework; sourceTree = "<group>"; };
+		DF76CF531C21625E001F173E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF76CF541C21625E001F173E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF76CF551C21625E001F173E /* GradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBackground.h; sourceTree = "<group>"; };
+		DF76CF561C21625E001F173E /* GradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBackground.m; sourceTree = "<group>"; };
+		DF76CF571C21625E001F173E /* helpicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpicon.png; sourceTree = "<group>"; };
+		DF76CF581C21625E001F173E /* LapTImer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapTImer.h; sourceTree = "<group>"; };
+		DF76CF591C21625E001F173E /* LapTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapTimer.m; sourceTree = "<group>"; };
+		DF76CF5A1C21625E001F173E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF76CF5B1C21625E001F173E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF76CF5C1C21625E001F173E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DF76CF5D1C21625E001F173E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		DF76CF5E1C21625E001F173E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		DF76CF5F1C21625E001F173E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF76CF681C21640B001F173E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,21 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2FF5B9F2C2D66DAA9887E3E8 /* Pods_MisfitLinkSDK_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				80FA29CD33ABA130CA4DECD5 /* Pods_MisfitLinkSDK_Tests.framework in Frameworks */,
+				DF08869E1C29451D00EAFAD8 /* MisfitLinkSDK.framework in Frameworks */,
+				DF76CF691C21640B001F173E /* CoreBluetooth.framework in Frameworks */,
+				662BFD4A5E811E155F37ED24 /* Pods_MisfitLinkSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +93,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* MisfitLinkSDK.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* MisfitLinkSDK_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +101,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF0886971C2903D900EAFAD8 /* MisfitLinkSDK.framework */,
+				DF76CF681C21640B001F173E /* CoreBluetooth.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -130,11 +116,19 @@
 		6003F593195388D20070C39A /* Example for MisfitLinkSDK */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* MFLAppDelegate.h */,
-				6003F59D195388D20070C39A /* MFLAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* MFLViewController.h */,
-				6003F5A6195388D20070C39A /* MFLViewController.m */,
+				DF76CF531C21625E001F173E /* AppDelegate.h */,
+				DF76CF541C21625E001F173E /* AppDelegate.m */,
+				DF76CF551C21625E001F173E /* GradientBackground.h */,
+				DF76CF561C21625E001F173E /* GradientBackground.m */,
+				DF76CF571C21625E001F173E /* helpicon.png */,
+				DF76CF581C21625E001F173E /* LapTImer.h */,
+				DF76CF591C21625E001F173E /* LapTimer.m */,
+				DF76CF5B1C21625E001F173E /* MainViewController.h */,
+				DF76CF5C1C21625E001F173E /* MainViewController.m */,
+				DF76CF5D1C21625E001F173E /* SettingsViewController.h */,
+				DF76CF5E1C21625E001F173E /* SettingsViewController.m */,
+				DF76CF5F1C21625E001F173E /* Main.storyboard */,
+				DF76CF5A1C21625E001F173E /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,29 +207,8 @@
 			);
 			name = MisfitLinkSDK_Example;
 			productName = MisfitLinkSDK;
-			productReference = 6003F58A195388D20070C39A /* MisfitLinkSDK.app */;
+			productReference = 6003F58A195388D20070C39A /* MisfitLinkSDK_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6003F5AD195388D20070C39A /* MisfitLinkSDK_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MisfitLinkSDK_Tests" */;
-			buildPhases = (
-				711EB9EE3B4317C9DFAAACDC /* Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				970F70B74762AE5A312530E7 /* Embed Pods Frameworks */,
-				C052750C3D2FFAC643A11F92 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = MisfitLinkSDK_Tests;
-			productName = MisfitLinkSDKTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -244,11 +217,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MFL;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Phill Pasqual";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					6003F589195388D20070C39A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -266,7 +243,6 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* MisfitLinkSDK_Example */,
-				6003F5AD195388D20070C39A /* MisfitLinkSDK_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,53 +252,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				DF76CF621C21625E001F173E /* helpicon.png in Resources */,
+				DF76CF671C21625F001F173E /* Main.storyboard in Resources */,
+				DF76CF641C21625F001F173E /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		711EB9EE3B4317C9DFAAACDC /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		970F70B74762AE5A312530E7 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MisfitLinkSDK_Tests/Pods-MisfitLinkSDK_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A6A9C0495F454FF66DE57FC6 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,21 +276,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MisfitLinkSDK_Example/Pods-MisfitLinkSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C052750C3D2FFAC643A11F92 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MisfitLinkSDK_Tests/Pods-MisfitLinkSDK_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EC0A2D58E32150EEFDD511E4 /* Check Pods Manifest.lock */ = {
@@ -390,29 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* MFLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MFLViewController.m in Sources */,
+				DF76CF611C21625E001F173E /* GradientBackground.m in Sources */,
+				DF76CF601C21625E001F173E /* AppDelegate.m in Sources */,
+				DF76CF651C21625F001F173E /* MainViewController.m in Sources */,
+				DF76CF661C21625F001F173E /* SettingsViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				DF76CF631C21625E001F173E /* LapTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* MisfitLinkSDK_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
@@ -452,6 +364,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -516,6 +429,11 @@
 				GCC_PREFIX_HEADER = "MisfitLinkSDK/MisfitLinkSDK-Prefix.pch";
 				INFOPLIST_FILE = "MisfitLinkSDK/MisfitLinkSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"MisfitLinkSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,50 +449,13 @@
 				GCC_PREFIX_HEADER = "MisfitLinkSDK/MisfitLinkSDK-Prefix.pch";
 				INFOPLIST_FILE = "MisfitLinkSDK/MisfitLinkSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"MisfitLinkSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA8B76985E57B2AB5889619 /* Pods-MisfitLinkSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisfitLinkSDK_Example.app/MisfitLinkSDK_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFDB8B5479B44C1003D391D9 /* Pods-MisfitLinkSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisfitLinkSDK_Example.app/MisfitLinkSDK_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -595,15 +476,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MisfitLinkSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

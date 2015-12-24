@@ -1,0 +1,14 @@
+PODS:
+  - MisfitLinkSDK (0.1.0)
+
+DEPENDENCIES:
+  - MisfitLinkSDK (from `../`)
+
+EXTERNAL SOURCES:
+  MisfitLinkSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MisfitLinkSDK: 7386b9beb8ac3b64572e8babd36f6dfacac2f62d
+
+COCOAPODS: 0.39.0

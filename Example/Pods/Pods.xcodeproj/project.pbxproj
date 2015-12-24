@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340615166AF8543E90BD12781F9FF155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7652B8DA164E013FE7B36470324944B7 /* Pods-MisfitLinkSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9089367A9D7D9E09FECECEC69B054E /* Pods-MisfitLinkSDK_Example-dummy.m */; };
+		B5EA1293F409BE2D5D2A90647471073B /* Pods-MisfitLinkSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C924EA3C2920A980492838E12CE166 /* Pods-MisfitLinkSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C924EA3C2920A980492838E12CE166 /* Pods-MisfitLinkSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MisfitLinkSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4334C93D459A8CAD59512748B98DC0EC /* Pods-MisfitLinkSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MisfitLinkSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47ECB5D9218B5051C088669A8CEA914B /* Pods_MisfitLinkSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisfitLinkSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513BBB76FBEE5339A3B39C92E39EEA9D /* Pods-MisfitLinkSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MisfitLinkSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6A9089367A9D7D9E09FECECEC69B054E /* Pods-MisfitLinkSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MisfitLinkSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		6E2D1D93B99A6180FCAF66220ABD2967 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7347E7D29ADB688C2D2D2E70EA827543 /* Pods-MisfitLinkSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MisfitLinkSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94D84F279CC1FE55CEDA3420FF214F55 /* Pods-MisfitLinkSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MisfitLinkSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE077D962B8FF4B84568FA1968FEF8A6 /* Pods-MisfitLinkSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MisfitLinkSDK_Example.modulemap"; sourceTree = "<group>"; };
+		DA67DAEFEFD554F3FF56836DA7A007BE /* Pods-MisfitLinkSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MisfitLinkSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E75017927F8378C5227ABF193ACFEB92 /* Pods-MisfitLinkSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MisfitLinkSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8CEA34629232C4E0FC39E9B75C68224 /* MisfitLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MisfitLinkSDK.framework; path = Pod/MisfitLinkSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A5D9EAA8E7AC7CE653721DFBC77689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340615166AF8543E90BD12781F9FF155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1649A8999121213181A4E8398AE0A844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47ECB5D9218B5051C088669A8CEA914B /* Pods_MisfitLinkSDK_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60194A37656B463E8B9CFA78CD91E62C /* Pods-MisfitLinkSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E2D1D93B99A6180FCAF66220ABD2967 /* Info.plist */,
+				BE077D962B8FF4B84568FA1968FEF8A6 /* Pods-MisfitLinkSDK_Example.modulemap */,
+				7347E7D29ADB688C2D2D2E70EA827543 /* Pods-MisfitLinkSDK_Example-acknowledgements.markdown */,
+				E75017927F8378C5227ABF193ACFEB92 /* Pods-MisfitLinkSDK_Example-acknowledgements.plist */,
+				6A9089367A9D7D9E09FECECEC69B054E /* Pods-MisfitLinkSDK_Example-dummy.m */,
+				513BBB76FBEE5339A3B39C92E39EEA9D /* Pods-MisfitLinkSDK_Example-frameworks.sh */,
+				94D84F279CC1FE55CEDA3420FF214F55 /* Pods-MisfitLinkSDK_Example-resources.sh */,
+				02C924EA3C2920A980492838E12CE166 /* Pods-MisfitLinkSDK_Example-umbrella.h */,
+				4334C93D459A8CAD59512748B98DC0EC /* Pods-MisfitLinkSDK_Example.debug.xcconfig */,
+				DA67DAEFEFD554F3FF56836DA7A007BE /* Pods-MisfitLinkSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-MisfitLinkSDK_Example";
+			path = "Target Support Files/Pods-MisfitLinkSDK_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CE864FEF1CA800E5F0ED40DFAF4FA4D3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1649A8999121213181A4E8398AE0A844 /* Products */,
+				837ABD72A1535E4510D7D2E96062315E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		837ABD72A1535E4510D7D2E96062315E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60194A37656B463E8B9CFA78CD91E62C /* Pods-MisfitLinkSDK_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B97937F518E06511FF2ED17C4571904F /* MisfitLinkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F2CAF30E96DB69A3A4359F0FE84B26BB /* Frameworks */,
+			);
+			name = MisfitLinkSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE864FEF1CA800E5F0ED40DFAF4FA4D3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B97937F518E06511FF2ED17C4571904F /* MisfitLinkSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F2CAF30E96DB69A3A4359F0FE84B26BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8CEA34629232C4E0FC39E9B75C68224 /* MisfitLinkSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BBAFF5BE170B0AF90C9D5368DF8DEC4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA1293F409BE2D5D2A90647471073B /* Pods-MisfitLinkSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D1E903A16041ED373BD2BBAF92DCFF63 /* Pods-MisfitLinkSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C749B96EC606D66A9CBAF5323BD8EC /* Build configuration list for PBXNativeTarget "Pods-MisfitLinkSDK_Example" */;
+			buildPhases = (
+				6529550414DBD9DF43A63B2C8CB938FF /* Sources */,
+				D9A5D9EAA8E7AC7CE653721DFBC77689 /* Frameworks */,
+				BBAFF5BE170B0AF90C9D5368DF8DEC4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MisfitLinkSDK_Example";
+			productName = "Pods-MisfitLinkSDK_Example";
+			productReference = 47ECB5D9218B5051C088669A8CEA914B /* Pods_MisfitLinkSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1649A8999121213181A4E8398AE0A844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E903A16041ED373BD2BBAF92DCFF63 /* Pods-MisfitLinkSDK_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6529550414DBD9DF43A63B2C8CB938FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7652B8DA164E013FE7B36470324944B7 /* Pods-MisfitLinkSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45B1ED29F72C0527D06BB05E2466A17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4334C93D459A8CAD59512748B98DC0EC /* Pods-MisfitLinkSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MisfitLinkSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MisfitLinkSDK_Example/Pods-MisfitLinkSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MisfitLinkSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA22A02EB3F2F96AE2B52737624AFBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA67DAEFEFD554F3FF56836DA7A007BE /* Pods-MisfitLinkSDK_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MisfitLinkSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MisfitLinkSDK_Example/Pods-MisfitLinkSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MisfitLinkSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C749B96EC606D66A9CBAF5323BD8EC /* Build configuration list for PBXNativeTarget "Pods-MisfitLinkSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B1ED29F72C0527D06BB05E2466A17A /* Debug */,
+				CA22A02EB3F2F96AE2B52737624AFBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
