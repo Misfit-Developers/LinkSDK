@@ -1,0 +1,1 @@
+../../../../../../Pod/MisfitLinkSDK.framework/Versions/A/Headers/MFLCommand.h
