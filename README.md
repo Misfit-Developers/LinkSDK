@@ -100,14 +100,14 @@ Finally, open your project properties and navigate to build settings -> linking 
 ![image of frameworks](/assets/images/docs/linkerflags.png?w=350)
 
 ### <a name="adding"></a> Adding a Reference to the Link SDK
-1. In XCode, open up your project properties
+1. In Xcode, open up your project properties
 2. Navigate to "Build Phases"
 3. In the "Link Binaries With Libraries" section, add *CoreBluetooth.framework* and *MisfitLinkSDK.framework*
 
 ![image of frameworks](/assets/images/docs/frameworks.png?w=550)
 
 ### <a name="enable"></a> Enable Bluetooth LE Background Mode
-1. In XCode, navigate to the "Capabilities" tab in your project properties
+1. In Xcode, navigate to the "Capabilities" tab in your project properties
 2. In the "Background Modes" secion, check the box next to "Uses Bluetooth LE accessories"
 
 ![image of ble accessories](/assets/images/docs/ble.png?w=700)
